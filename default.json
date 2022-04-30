@@ -1,10 +1,5 @@
 {
   "extends": ["config:base", ":disableDependencyDashboard"],
-  "force": {
-    "constraints": {
-      "yarn": "4.0.0-rc.3"
-    }
-  },
   "rangeStrategy": "bump",
   "postUpdateOptions": ["yarnDedupeHighest"]
 }
