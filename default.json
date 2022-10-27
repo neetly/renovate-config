@@ -1,5 +1,5 @@
 {
-  "extends": ["config:base", ":disableDependencyDashboard"],
+  "extends": ["group:monorepos"],
   "rangeStrategy": "bump",
   "postUpdateOptions": ["yarnDedupeHighest"]
 }
