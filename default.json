@@ -1,5 +1,11 @@
 {
   "extends": ["group:monorepos"],
   "rangeStrategy": "bump",
-  "postUpdateOptions": ["yarnDedupeHighest"]
+  "postUpdateOptions": ["yarnDedupeHighest"],
+  "packageRules": [
+    {
+      "groupName": "pixijs monorepo",
+      "matchSourceUrls": ["https://github.com/pixijs/pixijs"]
+    }
+  ]
 }
