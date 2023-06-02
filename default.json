@@ -1,5 +1,6 @@
 {
   "extends": ["group:monorepos"],
+  "dependencyDashboard": true,
   "rangeStrategy": "bump",
   "postUpdateOptions": ["yarnDedupeHighest"]
 }
