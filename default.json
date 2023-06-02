@@ -2,5 +2,6 @@
   "extends": ["group:monorepos"],
   "dependencyDashboard": true,
   "rangeStrategy": "bump",
-  "postUpdateOptions": ["yarnDedupeHighest"]
+  "postUpdateOptions": ["yarnDedupeHighest"],
+  "prHourlyLimit": 10
 }
