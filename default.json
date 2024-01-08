@@ -1,7 +1,7 @@
 {
   "extends": ["group:monorepos"],
   "dependencyDashboard": true,
-  "rangeStrategy": "bump",
+  "rangeStrategy": "pin",
   "postUpdateOptions": ["yarnDedupeHighest"],
   "lockFileMaintenance": { "enabled": true },
   "prHourlyLimit": 10
