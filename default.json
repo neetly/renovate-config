@@ -1,8 +1,11 @@
 {
-  "extends": ["group:monorepos"],
-  "dependencyDashboard": true,
-  "rangeStrategy": "pin",
+  "extends": [
+    ":dependencyDashboard",
+    ":pinAllExceptPeerDependencies",
+    "group:monorepos",
+    ":maintainLockFilesMonthly"
+  ],
   "postUpdateOptions": ["yarnDedupeHighest"],
-  "lockFileMaintenance": { "enabled": true },
-  "prHourlyLimit": 10
+  "prHourlyLimit": 10,
+  "prConcurrentLimit": 10
 }
