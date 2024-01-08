@@ -3,5 +3,6 @@
   "dependencyDashboard": true,
   "rangeStrategy": "bump",
   "postUpdateOptions": ["yarnDedupeHighest"],
+  "lockFileMaintenance": { "enabled": true },
   "prHourlyLimit": 10
 }
