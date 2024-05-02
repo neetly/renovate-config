@@ -2,11 +2,11 @@
   "extends": [
     ":dependencyDashboard",
     ":pinAllExceptPeerDependencies",
+    "group:recommended",
     "group:monorepos",
     ":maintainLockFilesMonthly"
   ],
   "postUpdateOptions": ["yarnDedupeHighest"],
   "prHourlyLimit": 10,
-  "prConcurrentLimit": 10,
-  "constraints": { "corepack": "0.24.1" }
+  "prConcurrentLimit": 10
 }
