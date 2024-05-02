@@ -1,6 +1,8 @@
 {
-  "editor.defaultFormatter": "biomejs.biome",
   "files.associations": {
     "**/.prototools": "toml"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
   }
 }
