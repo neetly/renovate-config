@@ -11,14 +11,14 @@
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": ["^\\.prototools$"],
-      "matchStrings": ["node = \"(?<currentValue>\\d[^\"]*)\"\\n"],
+      "fileMatch": ["(^|/)\\.prototools$"],
+      "matchStrings": ["node = \"(?<currentValue>[^\":]+)\"\\n"],
       "datasourceTemplate": "node-version"
     },
     {
       "customType": "regex",
-      "fileMatch": ["^\\.prototools$"],
-      "matchStrings": ["biome = \"(?<currentValue>\\d[^\"]*)\"\\n"],
+      "fileMatch": ["(^|/)\\.prototools$"],
+      "matchStrings": ["biome = \"(?<currentValue>[^\":]+)\"\\n"],
       "datasourceTemplate": "npm",
       "depNameTemplate": "@biomejs/biome"
     }
