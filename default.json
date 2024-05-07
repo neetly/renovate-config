@@ -20,7 +20,7 @@
       "fileMatch": ["(^|/)\\.prototools$"],
       "matchStrings": ["biome = \"(?<currentValue>[^\":]+)\"\\n"],
       "datasourceTemplate": "npm",
-      "depNameTemplate": "@biomejs/biome"
+      "packageNameTemplate": "@biomejs/biome"
     }
   ],
   "postUpdateOptions": ["yarnDedupeHighest"],
