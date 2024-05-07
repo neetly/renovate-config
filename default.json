@@ -2,11 +2,11 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     ":dependencyDashboard",
+    ":maintainLockFilesMonthly",
     ":pinAllExceptPeerDependencies",
-    "group:recommended",
-    "group:monorepos",
     "regexManagers:biomeVersions",
-    ":maintainLockFilesMonthly"
+    "group:recommended",
+    "group:monorepos"
   ],
   "customManagers": [
     {
@@ -20,7 +20,8 @@
       "fileMatch": ["(^|/)\\.prototools$"],
       "matchStrings": ["biome = \"(?<currentValue>[^\":]+)\"\\n"],
       "datasourceTemplate": "npm",
-      "packageNameTemplate": "@biomejs/biome"
+      "packageNameTemplate": "@biomejs/biome",
+      "depNameTemplate": "biome"
     }
   ],
   "postUpdateOptions": ["yarnDedupeHighest"],
