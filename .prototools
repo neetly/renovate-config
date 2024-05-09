@@ -1,4 +1,4 @@
-biome = "1.7.2"
+biome = "1.7.3"
 
 [plugins]
 biome = "source:https://raw.githubusercontent.com/neetly/proto-plugins/main/biome/proto-plugin.toml"
