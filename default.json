@@ -4,25 +4,8 @@
     ":dependencyDashboard",
     ":maintainLockFilesMonthly",
     ":pinAllExceptPeerDependencies",
-    "regexManagers:biomeVersions",
     "group:recommended",
     "group:monorepos"
-  ],
-  "customManagers": [
-    {
-      "customType": "regex",
-      "fileMatch": ["(^|/)\\.prototools$"],
-      "matchStrings": ["node = \"(?<currentValue>[^\":]+)\"\\n"],
-      "datasourceTemplate": "node-version"
-    },
-    {
-      "customType": "regex",
-      "fileMatch": ["(^|/)\\.prototools$"],
-      "matchStrings": ["biome = \"(?<currentValue>[^\":]+)\"\\n"],
-      "datasourceTemplate": "npm",
-      "packageNameTemplate": "@biomejs/biome",
-      "depNameTemplate": "biome"
-    }
   ],
   "postUpdateOptions": ["yarnDedupeHighest"],
   "prHourlyLimit": 10,
