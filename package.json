@@ -1,0 +1,12 @@
+{
+  "name": "@neetly/renovate-config",
+  "private": true,
+  "scripts": {
+    "check": "prettier --check .",
+    "check:apply": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "3.2.5"
+  },
+  "packageManager": "yarn@4.2.2"
+}
