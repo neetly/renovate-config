@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "check": "prettier --check .",
-    "check:apply": "prettier --write ."
+    "check:fix": "prettier --write ."
   },
   "devDependencies": {
     "prettier": "3.3.2"
