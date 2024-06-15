@@ -9,9 +9,30 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@neetly/renovate-config@workspace:."
   dependencies:
+    "@neetly/yarn-constraints": "npm:1.0.0-alpha.11"
     prettier: "npm:3.3.2"
   languageName: unknown
   linkType: soft
+
+"@neetly/yarn-constraints@npm:1.0.0-alpha.11":
+  version: 1.0.0-alpha.11
+  resolution: "@neetly/yarn-constraints@npm:1.0.0-alpha.11"
+  dependencies:
+    "@yarnpkg/types": "npm:4.0.0"
+  peerDependencies:
+    "@yarnpkg/types": "*"
+  checksum: 10c0/5f02b6d3e6074ddb47668c2c8a2725e44630aa1efcba2c7532633a979c801134bd6d4ab0e466081e7197a9858ac429eb925c5e747653516a72cfcf51f4db2889
+  languageName: node
+  linkType: hard
+
+"@yarnpkg/types@npm:4.0.0":
+  version: 4.0.0
+  resolution: "@yarnpkg/types@npm:4.0.0"
+  dependencies:
+    tslib: "npm:^2.4.0"
+  checksum: 10c0/41f67a4aa5c414c1e228f51453451fa15e0dd70c5cf2b1ae1ca142a3f018f25e4a37e60372cd0f5970c755e1804a2e31e208bff427add1cf13f899b0b9adc1e0
+  languageName: node
+  linkType: hard
 
 "prettier@npm:3.3.2":
   version: 3.3.2
@@ -19,5 +40,12 @@ __metadata:
   bin:
     prettier: bin/prettier.cjs
   checksum: 10c0/39ed27d17f0238da6dd6571d63026566bd790d3d0edac57c285fbab525982060c8f1e01955fe38134ab10f0951a6076da37f015db8173c02f14bc7f0803a384c
+  languageName: node
+  linkType: hard
+
+"tslib@npm:^2.4.0":
+  version: 2.6.3
+  resolution: "tslib@npm:2.6.3"
+  checksum: 10c0/2598aef53d9dbe711af75522464b2104724d6467b26a60f2bdac8297d2b5f1f6b86a71f61717384aa8fd897240467aaa7bcc36a0700a0faf751293d1331db39a
   languageName: node
   linkType: hard

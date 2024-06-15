@@ -12,6 +12,7 @@ jobs:
           auto-install: true
 
       - run: yarn
+      - run: yarn constraints
       - run: yarn dedupe --check
 
       - run: yarn check
