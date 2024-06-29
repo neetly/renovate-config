@@ -9,19 +9,19 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@neetly/renovate-config@workspace:."
   dependencies:
-    "@neetly/yarn-constraints": "npm:1.0.0-alpha.11"
+    "@neetly/yarn-constraints": "npm:1.0.0-alpha.12"
     prettier: "npm:3.3.2"
   languageName: unknown
   linkType: soft
 
-"@neetly/yarn-constraints@npm:1.0.0-alpha.11":
-  version: 1.0.0-alpha.11
-  resolution: "@neetly/yarn-constraints@npm:1.0.0-alpha.11"
+"@neetly/yarn-constraints@npm:1.0.0-alpha.12":
+  version: 1.0.0-alpha.12
+  resolution: "@neetly/yarn-constraints@npm:1.0.0-alpha.12"
   dependencies:
     "@yarnpkg/types": "npm:4.0.0"
   peerDependencies:
     "@yarnpkg/types": "*"
-  checksum: 10c0/5f02b6d3e6074ddb47668c2c8a2725e44630aa1efcba2c7532633a979c801134bd6d4ab0e466081e7197a9858ac429eb925c5e747653516a72cfcf51f4db2889
+  checksum: 10c0/87688296d9db829eb1f6ba28274b10fdde9cda3c38371e491d25c71ecba4b3a7ff74d2cc8112aa7e4f058681772e77159d6bc9d4fe91c755312e83bc33cc89d4
   languageName: node
   linkType: hard
 
