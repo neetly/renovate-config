@@ -7,7 +7,7 @@
     "check:fix": "prettier --write ."
   },
   "devDependencies": {
-    "@neetly/yarn-constraints": "1.0.0-alpha.12",
+    "@neetly/yarn-constraints": "1.0.0-alpha.13",
     "prettier": "3.3.2"
   },
   "packageManager": "yarn@4.3.1"
